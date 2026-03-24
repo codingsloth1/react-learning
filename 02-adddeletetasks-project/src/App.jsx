@@ -65,7 +65,7 @@ function App() {
   
 
   return (
-    <main className="h-screen my-8 flex gap-8 bg-stone-400">
+    <main className="h-screen flex gap-8 bg-stone-400">
     
      <ProjectSidebar  addSelectProject={handleStartProject} projects={projectState.projects}     onSelectProject={handleSelectProject}/>
       {/* <NewProject/>  */}
